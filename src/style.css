@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+
+  background: url(asset/parking-bg.png) no-repeat center center fixed;
+  text-align: center;
+}
+h1 {
+  margin-top: 2rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.container {
+  width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.479);
+  filter: blur(0.3px);
+}
+
+.container input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.success {
+  width: 100%;
+  padding: 0.6rem;
+  background: #020102;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+}
+
+.success:hover {
+  background: #06060756;
+  color: rgb(224, 220, 220);
+}
+
+.table {
+  width: 500px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.delete {
+  padding: 0 0.6rem;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: transform 0.3s;
+}
+.delete:hover {
+  color: #c01c1c;
+  transform: scale(1.4);
+}
+table {
+  color: rgba(250, 250, 250, 0.849);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Parking</title>
+  </head>
+  <body>
+    <h1>Parking Avenue</h1>
+
+    <div class="input container">
+      <label for="name">Veicle 🚗</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Veicle Name"
+        autocomplete="off"
+      />
+      <label for="licence">License</label>
+      <input
+        type="text"
+        id="licence"
+        placeholder="Veicle License"
+        autocomplete="off"
+      />
+      <button id="send" class="success">Register</button>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Veicle</th>
+          <th>License</th>
+          <th>Entry</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="garage"></tbody>
+    </table>
+
+    <script src="main.js"></script>
+  </body>
+</html>
